@@ -12,6 +12,11 @@
 		271EEEDA2346E00B00B14354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271EEED82346E00B00B14354 /* Main.storyboard */; };
 		271EEEDC2346E00B00B14354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271EEEDB2346E00B00B14354 /* Assets.xcassets */; };
 		271EEEDF2346E00B00B14354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271EEEDD2346E00B00B14354 /* LaunchScreen.storyboard */; };
+		271EEEED2346E06400B14354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271EEEEC2346E06400B14354 /* AppDelegate.swift */; };
+		271EEEEF2346E06400B14354 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271EEEEE2346E06400B14354 /* ViewController.swift */; };
+		271EEEF22346E06400B14354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271EEEF02346E06400B14354 /* Main.storyboard */; };
+		271EEEF72346E06500B14354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271EEEF52346E06500B14354 /* LaunchScreen.storyboard */; };
+		271EEEFD2346E0AC00B14354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271EEEDB2346E00B00B14354 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +27,23 @@
 		271EEEDB2346E00B00B14354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		271EEEDE2346E00B00B14354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		271EEEE02346E00B00B14354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		271EEEEA2346E06400B14354 /* ArtShop Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ArtShop Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		271EEEEC2346E06400B14354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		271EEEEE2346E06400B14354 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		271EEEF12346E06400B14354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		271EEEF62346E06500B14354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		271EEEF82346E06500B14354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		271EEECE2346E00B00B14354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		271EEEE72346E06400B14354 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,7 +56,9 @@
 		271EEEC82346E00A00B14354 = {
 			isa = PBXGroup;
 			children = (
+				271EEEFC2346E09200B14354 /* Shared */,
 				271EEED32346E00B00B14354 /* ArtShop */,
+				271EEEEB2346E06400B14354 /* ArtShop Admin */,
 				271EEED22346E00B00B14354 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				271EEED12346E00B00B14354 /* ArtShop.app */,
+				271EEEEA2346E06400B14354 /* ArtShop Admin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,11 +78,30 @@
 				271EEED42346E00B00B14354 /* AppDelegate.swift */,
 				271EEED62346E00B00B14354 /* ViewController.swift */,
 				271EEED82346E00B00B14354 /* Main.storyboard */,
-				271EEEDB2346E00B00B14354 /* Assets.xcassets */,
 				271EEEDD2346E00B00B14354 /* LaunchScreen.storyboard */,
 				271EEEE02346E00B00B14354 /* Info.plist */,
 			);
 			path = ArtShop;
+			sourceTree = "<group>";
+		};
+		271EEEEB2346E06400B14354 /* ArtShop Admin */ = {
+			isa = PBXGroup;
+			children = (
+				271EEEEC2346E06400B14354 /* AppDelegate.swift */,
+				271EEEEE2346E06400B14354 /* ViewController.swift */,
+				271EEEF02346E06400B14354 /* Main.storyboard */,
+				271EEEF52346E06500B14354 /* LaunchScreen.storyboard */,
+				271EEEF82346E06500B14354 /* Info.plist */,
+			);
+			path = "ArtShop Admin";
+			sourceTree = "<group>";
+		};
+		271EEEFC2346E09200B14354 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				271EEEDB2346E00B00B14354 /* Assets.xcassets */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +124,23 @@
 			productReference = 271EEED12346E00B00B14354 /* ArtShop.app */;
 			productType = "com.apple.product-type.application";
 		};
+		271EEEE92346E06400B14354 /* ArtShop Admin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 271EEEF92346E06500B14354 /* Build configuration list for PBXNativeTarget "ArtShop Admin" */;
+			buildPhases = (
+				271EEEE62346E06400B14354 /* Sources */,
+				271EEEE72346E06400B14354 /* Frameworks */,
+				271EEEE82346E06400B14354 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ArtShop Admin";
+			productName = "ArtShop Admin";
+			productReference = 271EEEEA2346E06400B14354 /* ArtShop Admin.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -95,6 +152,9 @@
 				ORGANIZATIONNAME = "Axel Whitford";
 				TargetAttributes = {
 					271EEED02346E00B00B14354 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					271EEEE92346E06400B14354 = {
 						CreatedOnToolsVersion = 10.3;
 					};
 				};
@@ -113,6 +173,7 @@
 			projectRoot = "";
 			targets = (
 				271EEED02346E00B00B14354 /* ArtShop */,
+				271EEEE92346E06400B14354 /* ArtShop Admin */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +189,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		271EEEE82346E06400B14354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271EEEF72346E06500B14354 /* LaunchScreen.storyboard in Resources */,
+				271EEEFD2346E0AC00B14354 /* Assets.xcassets in Resources */,
+				271EEEF22346E06400B14354 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,6 +208,15 @@
 			files = (
 				271EEED72346E00B00B14354 /* ViewController.swift in Sources */,
 				271EEED52346E00B00B14354 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		271EEEE62346E06400B14354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271EEEEF2346E06400B14354 /* ViewController.swift in Sources */,
+				271EEEED2346E06400B14354 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +235,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				271EEEDE2346E00B00B14354 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		271EEEF02346E06400B14354 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				271EEEF12346E06400B14354 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		271EEEF52346E06500B14354 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				271EEEF62346E06500B14354 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -314,6 +410,42 @@
 			};
 			name = Release;
 		};
+		271EEEFA2346E06500B14354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GK2S6JZH67;
+				INFOPLIST_FILE = "ArtShop Admin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.axel.example.ArtShop-Admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		271EEEFB2346E06500B14354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GK2S6JZH67;
+				INFOPLIST_FILE = "ArtShop Admin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.axel.example.ArtShop-Admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -331,6 +463,15 @@
 			buildConfigurations = (
 				271EEEE42346E00B00B14354 /* Debug */,
 				271EEEE52346E00B00B14354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		271EEEF92346E06500B14354 /* Build configuration list for PBXNativeTarget "ArtShop Admin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				271EEEFA2346E06500B14354 /* Debug */,
+				271EEEFB2346E06500B14354 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
