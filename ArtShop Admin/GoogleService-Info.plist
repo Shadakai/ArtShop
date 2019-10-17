@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>556649422987-tmi15rmcd3q9l7ju02c9sj049jjco0hu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.556649422987-tmi15rmcd3q9l7ju02c9sj049jjco0hu</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDrwpACQFYRzWy0sdEX-Qn81zXTnrm2rbQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>556649422987</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.axel.example.ArtShop-Admin</string>
+	<key>PROJECT_ID</key>
+	<string>artshop-a5303</string>
+	<key>STORAGE_BUCKET</key>
+	<string>artshop-a5303.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:556649422987:ios:81d3adad448fb9fc61748e</string>
+	<key>DATABASE_URL</key>
+	<string>https://artshop-a5303.firebaseio.com</string>
+</dict>
+</plist>

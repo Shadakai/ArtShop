@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,16 @@
 		271EEEF22346E06400B14354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271EEEF02346E06400B14354 /* Main.storyboard */; };
 		271EEEF72346E06500B14354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271EEEF52346E06500B14354 /* LaunchScreen.storyboard */; };
 		271EEEFD2346E0AC00B14354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271EEEDB2346E00B00B14354 /* Assets.xcassets */; };
+		271EEF002346EACC00B14354 /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271EEEFF2346EACC00B14354 /* LoginStoryboard.storyboard */; };
+		27CB0E05234B026400F99226 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27CB0E04234B026400F99226 /* GoogleService-Info.plist */; };
+		27CB0E07234B065100F99226 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27CB0E06234B065100F99226 /* GoogleService-Info.plist */; };
+		27CB0E0D234B0DBC00F99226 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CB0E0C234B0DBC00F99226 /* LoginVC.swift */; };
+		27CB0E0F234B0DCE00F99226 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CB0E0E234B0DCE00F99226 /* RegisterVC.swift */; };
+		27CB0E1223516B8A00F99226 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CB0E1123516B8A00F99226 /* Extensions.swift */; };
+		27CB0E14235827E500F99226 /* Constance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CB0E13235827E500F99226 /* Constance.swift */; };
+		27CB0E1723582A8600F99226 /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CB0E1623582A8600F99226 /* RoundedViews.swift */; };
+		E4A3F8D7F0CF8A832D3FB2A2 /* Pods_ArtShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E48650598930B665434D34 /* Pods_ArtShop.framework */; };
+		ECB3A2678C2B27517412FFD9 /* Pods_ArtShop_Admin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1CCCFF76E3DC98A62D0B9CE /* Pods_ArtShop_Admin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +43,20 @@
 		271EEEF12346E06400B14354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		271EEEF62346E06500B14354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		271EEEF82346E06500B14354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		271EEEFF2346EACC00B14354 /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
+		27CB0E04234B026400F99226 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		27CB0E06234B065100F99226 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		27CB0E0C234B0DBC00F99226 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		27CB0E0E234B0DCE00F99226 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		27CB0E1123516B8A00F99226 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		27CB0E13235827E500F99226 /* Constance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constance.swift; sourceTree = "<group>"; };
+		27CB0E1623582A8600F99226 /* RoundedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedViews.swift; sourceTree = "<group>"; };
+		339F295A784CF0F8D5C98124 /* Pods-ArtShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtShop.debug.xcconfig"; path = "Target Support Files/Pods-ArtShop/Pods-ArtShop.debug.xcconfig"; sourceTree = "<group>"; };
+		5A5E0582B7AFEA6C3E296800 /* Pods-ArtShop Admin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtShop Admin.debug.xcconfig"; path = "Target Support Files/Pods-ArtShop Admin/Pods-ArtShop Admin.debug.xcconfig"; sourceTree = "<group>"; };
+		80F33DFC5B942FD8DAA427F6 /* Pods-ArtShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtShop.release.xcconfig"; path = "Target Support Files/Pods-ArtShop/Pods-ArtShop.release.xcconfig"; sourceTree = "<group>"; };
+		8A1D69B3014EA2E7FDC94961 /* Pods-ArtShop Admin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtShop Admin.release.xcconfig"; path = "Target Support Files/Pods-ArtShop Admin/Pods-ArtShop Admin.release.xcconfig"; sourceTree = "<group>"; };
+		96E48650598930B665434D34 /* Pods_ArtShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1CCCFF76E3DC98A62D0B9CE /* Pods_ArtShop_Admin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtShop_Admin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4A3F8D7F0CF8A832D3FB2A2 /* Pods_ArtShop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,12 +72,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECB3A2678C2B27517412FFD9 /* Pods_ArtShop_Admin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E5766DE303FF1956C0E6EDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96E48650598930B665434D34 /* Pods_ArtShop.framework */,
+				C1CCCFF76E3DC98A62D0B9CE /* Pods_ArtShop_Admin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		271EEEC82346E00A00B14354 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +95,8 @@
 				271EEED32346E00B00B14354 /* ArtShop */,
 				271EEEEB2346E06400B14354 /* ArtShop Admin */,
 				271EEED22346E00B00B14354 /* Products */,
+				41D9F0A0DEA168D82F8E548B /* Pods */,
+				1E5766DE303FF1956C0E6EDF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,11 +112,12 @@
 		271EEED32346E00B00B14354 /* ArtShop */ = {
 			isa = PBXGroup;
 			children = (
-				271EEED42346E00B00B14354 /* AppDelegate.swift */,
-				271EEED62346E00B00B14354 /* ViewController.swift */,
-				271EEED82346E00B00B14354 /* Main.storyboard */,
-				271EEEDD2346E00B00B14354 /* LaunchScreen.storyboard */,
+				27CB0E09234B0D2E00F99226 /* Model */,
+				27CB0E0B234B0D4400F99226 /* View */,
+				27CB0E08234B0D2700F99226 /* Contoller */,
+				27CB0E0A234B0D3400F99226 /* Storyboards */,
 				271EEEE02346E00B00B14354 /* Info.plist */,
+				27CB0E04234B026400F99226 /* GoogleService-Info.plist */,
 			);
 			path = ArtShop;
 			sourceTree = "<group>";
@@ -92,6 +130,7 @@
 				271EEEF02346E06400B14354 /* Main.storyboard */,
 				271EEEF52346E06500B14354 /* LaunchScreen.storyboard */,
 				271EEEF82346E06500B14354 /* Info.plist */,
+				27CB0E06234B065100F99226 /* GoogleService-Info.plist */,
 			);
 			path = "ArtShop Admin";
 			sourceTree = "<group>";
@@ -99,9 +138,74 @@
 		271EEEFC2346E09200B14354 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				27CB0E1523582A7600F99226 /* View */,
+				27CB0E1023516B7500F99226 /* Utils */,
 				271EEEDB2346E00B00B14354 /* Assets.xcassets */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		27CB0E08234B0D2700F99226 /* Contoller */ = {
+			isa = PBXGroup;
+			children = (
+				27CB0E0C234B0DBC00F99226 /* LoginVC.swift */,
+				27CB0E0E234B0DCE00F99226 /* RegisterVC.swift */,
+				271EEED42346E00B00B14354 /* AppDelegate.swift */,
+				271EEED62346E00B00B14354 /* ViewController.swift */,
+			);
+			path = Contoller;
+			sourceTree = "<group>";
+		};
+		27CB0E09234B0D2E00F99226 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		27CB0E0A234B0D3400F99226 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				271EEEFF2346EACC00B14354 /* LoginStoryboard.storyboard */,
+				271EEED82346E00B00B14354 /* Main.storyboard */,
+				271EEEDD2346E00B00B14354 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		27CB0E0B234B0D4400F99226 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		27CB0E1023516B7500F99226 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				27CB0E1123516B8A00F99226 /* Extensions.swift */,
+				27CB0E13235827E500F99226 /* Constance.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		27CB0E1523582A7600F99226 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				27CB0E1623582A8600F99226 /* RoundedViews.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41D9F0A0DEA168D82F8E548B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				339F295A784CF0F8D5C98124 /* Pods-ArtShop.debug.xcconfig */,
+				80F33DFC5B942FD8DAA427F6 /* Pods-ArtShop.release.xcconfig */,
+				5A5E0582B7AFEA6C3E296800 /* Pods-ArtShop Admin.debug.xcconfig */,
+				8A1D69B3014EA2E7FDC94961 /* Pods-ArtShop Admin.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 271EEEE32346E00B00B14354 /* Build configuration list for PBXNativeTarget "ArtShop" */;
 			buildPhases = (
+				310A59CD4D68084979692C5F /* [CP] Check Pods Manifest.lock */,
 				271EEECD2346E00B00B14354 /* Sources */,
 				271EEECE2346E00B00B14354 /* Frameworks */,
 				271EEECF2346E00B00B14354 /* Resources */,
+				FA50768D7642090B3EA35CF3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 271EEEF92346E06500B14354 /* Build configuration list for PBXNativeTarget "ArtShop Admin" */;
 			buildPhases = (
+				2E4C1356F4C61B7ABA8451A1 /* [CP] Check Pods Manifest.lock */,
 				271EEEE62346E06400B14354 /* Sources */,
 				271EEEE72346E06400B14354 /* Frameworks */,
 				271EEEE82346E06400B14354 /* Resources */,
+				4C7F3C9B734A7F21F7009C29 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,7 +293,9 @@
 			files = (
 				271EEEDF2346E00B00B14354 /* LaunchScreen.storyboard in Resources */,
 				271EEEDC2346E00B00B14354 /* Assets.xcassets in Resources */,
+				27CB0E05234B026400F99226 /* GoogleService-Info.plist in Resources */,
 				271EEEDA2346E00B00B14354 /* Main.storyboard in Resources */,
+				271EEF002346EACC00B14354 /* LoginStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,18 +306,105 @@
 				271EEEF72346E06500B14354 /* LaunchScreen.storyboard in Resources */,
 				271EEEFD2346E0AC00B14354 /* Assets.xcassets in Resources */,
 				271EEEF22346E06400B14354 /* Main.storyboard in Resources */,
+				27CB0E07234B065100F99226 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E4C1356F4C61B7ABA8451A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArtShop Admin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		310A59CD4D68084979692C5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArtShop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C7F3C9B734A7F21F7009C29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArtShop Admin/Pods-ArtShop Admin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArtShop Admin/Pods-ArtShop Admin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArtShop Admin/Pods-ArtShop Admin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA50768D7642090B3EA35CF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArtShop/Pods-ArtShop-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArtShop/Pods-ArtShop-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArtShop/Pods-ArtShop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		271EEECD2346E00B00B14354 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27CB0E1223516B8A00F99226 /* Extensions.swift in Sources */,
 				271EEED72346E00B00B14354 /* ViewController.swift in Sources */,
+				27CB0E14235827E500F99226 /* Constance.swift in Sources */,
+				27CB0E0F234B0DCE00F99226 /* RegisterVC.swift in Sources */,
+				27CB0E1723582A8600F99226 /* RoundedViews.swift in Sources */,
 				271EEED52346E00B00B14354 /* AppDelegate.swift in Sources */,
+				27CB0E0D234B0DBC00F99226 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +573,7 @@
 		};
 		271EEEE42346E00B00B14354 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 339F295A784CF0F8D5C98124 /* Pods-ArtShop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +592,7 @@
 		};
 		271EEEE52346E00B00B14354 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80F33DFC5B942FD8DAA427F6 /* Pods-ArtShop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -412,6 +611,7 @@
 		};
 		271EEEFA2346E06500B14354 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A5E0582B7AFEA6C3E296800 /* Pods-ArtShop Admin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -430,6 +630,7 @@
 		};
 		271EEEFB2346E06500B14354 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A1D69B3014EA2E7FDC94961 /* Pods-ArtShop Admin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
